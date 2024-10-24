@@ -34,7 +34,7 @@ Ensure you have **Node.js** and **npm** (or **yarn**) installed.
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/scrum-board-react.git
+   git clone https://github.com/trong292990/scrum-board-react.git
    cd scrum-board-react
    ```
 
@@ -50,12 +50,12 @@ Ensure you have **Node.js** and **npm** (or **yarn**) installed.
 To start the development server:
 
 ```sh
-npm start
+npm run dev
 # or
-yarn start
+yarn dev
 ```
 
-The app will be available at `http://localhost:3000`.
+The app will be available at `http://localhost:5173`.
 
 ### Usage
 
@@ -68,27 +68,6 @@ The app will be available at `http://localhost:3000`.
     - `components/` - Contains all the components used in the application.
     - `App.tsx` - Main entry point where the sprint board is created.
     - `App.css` - Basic styling for the board.
-
-## Contribution
-
-Contributions are welcome! Please feel free to submit issues and pull requests for improvements or bug fixes.
-
-### To Contribute
-
-1. Fork the repository.
-2. Create a new branch:
-   ```sh
-   git checkout -b feature/your-feature-name
-   ```
-3. Make your changes and commit them:
-   ```sh
-   git commit -m "Added a new feature"
-   ```
-4. Push to the branch:
-   ```sh
-   git push origin feature/your-feature-name
-   ```
-5. Open a Pull Request.
 
 ## License
 
